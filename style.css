@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	background: #B2FFB2;
+	height: 100vh;
+	width: 100vw;
+}
+
+#canvas {
+	height: 80vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #C7C7C7;
+	box-shadow: 0 2vmin 20px rgba(0,0,0,0.5);
+}
+
+#leaves {
+	border-radius: 50%;
+	height: 50vmin;
+	width: 40vmin;
+	left: 20vmin;
+	top: 5vmin;
+	background: #00C700;
+}
+
+#wood {
+	background: brown;
+	height: 50vmin;
+	width: 6vmin;
+	left: 37vmin;
+	top: 20vmin;
+}
+
+#twig {
+	height: 10vmin;
+	width: 10vmin;
+	border: 5vmin solid rgba(0,0,0,0);
+	border-top-color: brown;
+	border-right-color: brown;
+	left: 30vmin;
+	top: 20vmin;
+	transform: rotate(135deg);
+}
+
+#grass, #grass-green {
+	height: 2vmin;
+	width: 50vmin;
+	background: #00C700;
+	border-radius: 1vmin;
+	left: 15vmin;
+	top: 69vmin;
+}
+
+#grass-green {
+	top: 70vmin;
+	background: green;
+}
